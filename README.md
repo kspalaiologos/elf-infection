@@ -1,2 +1,2 @@
 # elf-infection
-Source code for https://palaiologos.rocks/essays/posts/elf-infection/
+Source code for https://iczelia.net/essays/posts/elf-infection/
